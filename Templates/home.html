@@ -1,0 +1,16 @@
+{% extends 'main.html' %}
+{% block body %}
+<h1>Welcome to home page</h1>
+<img src="static/images/images.jpg" height="250px" >
+{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="{% url 'login' %}">Login</a><br>
+<a href="{% url 'register' %}">Register</a><br>
+</body>
+</html>

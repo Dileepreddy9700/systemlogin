@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Register Page</h1>
+<form action="readregister" method="post">
+  {% csrf_token %}
+  UserName <input type="text" name="tbuname" id="tbuname"><br>
+  Email <input type="email" name="tbemail" id="tbemail"><br>
+  Password <input type="password" name="tbpass" id="tbpass"><br>
+  <input type="submit" value="Register">
+</form>
+</body>
+</html>
